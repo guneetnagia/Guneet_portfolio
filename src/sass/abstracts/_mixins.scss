@@ -1,0 +1,25 @@
+
+// media query manager
+/* 
+  $breakpoint argument choices
+  - phone   0 to 600px
+  - tab-port  600 to 900px
+  - tab-land  900px to 1200px
+  - big-desktop  1800px above
+*/
+
+// 1em = 16px (default browser pixel)
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media (max-width : 37.5em) {@content};  //600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width : 56.25em) {@content};   //900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width : 75em) {@content};   //1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width : 112.5em) {@content};   //1800px
+    }
+}
