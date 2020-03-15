@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class Contact extends Component {
     render(){
         return(
-            <div>
-                <div>guneet.nagia@outlook.com</div>
-                <div>http://github.com link</div>
-                <div>+91-8956179747</div>
+            <div className="contact">
+                <div className="contact__id">guneet.nagia@outlook.com<i className="fa fa-envelope"></i></div>
+                <div className="contact__link">http://github.com<i className="fa fa-github" /></div>
+                <div className="contact__number">+91-8956179747 <i className="fa fa-phone"></i></div>
             </div>
         );
     }

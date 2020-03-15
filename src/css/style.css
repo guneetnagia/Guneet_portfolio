@@ -36,7 +36,7 @@ body {
   max-width: 114rem;
   margin: 0 auto; }
   .row:not(:last-child) {
-    margin-bottom: 8rem; }
+    margin-bottom: 2rem; }
     @media (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 6rem; } }
@@ -72,20 +72,57 @@ body {
   .row .col-3-of-4 {
     width: calc(3*((100% - 3*6rem)/4) + 2*6rem); }
 
-.story {
+.avatar {
   margin: 0 auto; }
   @media (max-width: 56.25em) {
-    .story {
+    .avatar {
       width: 100%;
       padding: 4rem;
       padding-left: 7rem; } }
-  .story__shape {
-    width: 15rem;
-    height: 15rem;
+  .avatar__shape {
+    width: 10rem;
+    height: 10rem;
     position: relative;
     overflow: hidden;
     border-radius: 50%; }
-  .story__img {
+  .avatar__img {
     height: 100%;
     backface-visibility: hidden;
     transition: all .5s; }
+
+.skills__technos {
+  display: inline-block;
+  padding: 1.5rem;
+  border: 1px solid;
+  margin: 0 auto !important;
+  color: #fff;
+  background-color: #55c57a;
+  border-radius: 3px; }
+
+.title__name {
+  font-size: 3.2rem; }
+
+.title__role {
+  font-size: 2rem;
+  color: #55c57a; }
+
+.title__summary {
+  font-size: 1.2rem; }
+
+.contact {
+  font-size: 1.6rem;
+  position: absolute;
+  text-align: right; }
+  .contact__link {
+    text-decoration: none; }
+
+.experience {
+  font-size: 1.6rem; }
+  .experience__title {
+    font-size: 2rem; }
+
+.companies__date {
+  color: #55c57a; }
+
+.companies__place {
+  color: #55c57a; }

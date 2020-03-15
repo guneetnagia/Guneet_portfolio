@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-fontawesome": "^1.7.1",
+    "react-scripts": "^3.4.0"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",

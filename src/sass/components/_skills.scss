@@ -1,0 +1,14 @@
+.skills {
+    &__title {
+    }
+
+    &__technos {
+        display: inline-block;
+        padding: 1.5rem;
+        border: 1px solid;
+        margin: 0 auto !important;
+        color: $color-white;
+        background-color: $color-primary;
+        border-radius: 3px;
+    }
+}

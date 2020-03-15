@@ -1,4 +1,4 @@
-.story {
+.avatar {
     margin: 0 auto;
 
     @include respond(tab-port) {
@@ -8,8 +8,8 @@
     }
 
     &__shape {
-        width: 15rem;
-        height: 15rem;
+        width: 10rem;
+        height: 10rem;
         position: relative;
         overflow: hidden;
         border-radius: 50%;

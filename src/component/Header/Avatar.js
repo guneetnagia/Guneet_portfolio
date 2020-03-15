@@ -3,9 +3,9 @@ import image from '../../img/img.png'
 
 const Avatar = () => {
     return (
-        <div className="story">
-            <figure className="story__shape">
-                <img src={image} className="story__image" />
+        <div className="avatar">
+            <figure className="avatar__shape">
+                <img src={image} className="avatar__image" />
             </figure>
         </div>
     );

@@ -1,0 +1,13 @@
+.title{
+
+    &__name{
+        font-size: $large-font-size;
+    }
+    &__role{
+        font-size: $medium-font-size;
+        color: $color-primary;
+    }
+    &__summary{
+        font-size: $small-font-size;
+    }
+}
