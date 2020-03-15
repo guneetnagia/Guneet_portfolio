@@ -1,23 +1,12 @@
 .avatar {
-    margin: 0 auto;
-
+    position: relative;
     @include respond(tab-port) {
         width: 100%;
-        padding: 4rem;
-        padding-left: 7rem;
-    }
-
-    &__shape {
-        width: 10rem;
-        height: 10rem;
-        position: relative;
-        overflow: hidden;
-        border-radius: 50%;
     }
 
     &__img {
-        height: 100%;
+        border-radius: 100px;
+        width: 80px;
         backface-visibility: hidden;
-        transition: all .5s;
     }
 }

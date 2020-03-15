@@ -3,27 +3,30 @@ import React from 'react';
 const Skills = () => {
     return (
         <div className="skills">
-            <div className="skills__title">Skills</div>
-            <div className="row">
-                <div className="skills__technos">
+            <div className="heading-tertiary">Skills</div>
+            <div className="row u-margin-bottom-big">
+                <div className="btn btn--green u-margin-bottom-small">
                     Javascript
                  </div>
-                <div className="skills__technos">
+                <div className="btn btn--green u-margin-bottom-small">
                     React
                 </div>
-                <div className="skills__technos">
+                <div className="btn btn--green u-margin-bottom-small">
                     Redux
                 </div>
-                <div className="skills__technos">
+                <div className="btn btn--green u-margin-bottom-small">
+                    Sass
+                </div>
+                <div className="btn btn--green u-margin-bottom-small">
                     Java
                 </div>
-                <div className="skills__technos">
+                <div className="btn btn--green u-margin-bottom-small">
                     Spring Cloud
                 </div>
-                <div className="skills__technos">
+                <div className="btn btn--green u-margin-bottom-small">
                     Micro services
                 </div>
-                <div className="skills__technos">
+                <div className="btn btn--green u-margin-bottom-small">
                     Agile
                 </div>
             </div>

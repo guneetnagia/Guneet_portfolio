@@ -4,7 +4,7 @@ import Companies from './Companies';
 const WorkExp =()=>{
     return(
         <div className="experience">
-            <div className="experience__title">Work Experience</div>
+            <div className="heading-tertiary">Work Experience</div>
             <Companies />
             <br />
             <Companies />

@@ -2,13 +2,14 @@
     font-size: $default-font-size;
     position: absolute;
     text-align: right;
-    &__id {
-        
+
+    @include respond(tab-port) {
+        text-align: left;
+        position: relative;
+        padding-bottom: 3rem;
     }
-    &__link {
+
+   &__link {
         text-decoration: none;
-    }
-    &__number {
-        
     }
 }

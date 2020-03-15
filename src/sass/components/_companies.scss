@@ -1,25 +1,20 @@
 .companies {
     &__name {
-        font-size: $medium-font-size;
+        letter-spacing: 0.2rem;
+        border-bottom: 1px solid $color-dark-grey;
+        display: inline-block;
     }
 
-    &__role {
-        font-size: $mid-font-size;
-        font-weight: 600;
-    }
-
-    &__date {
+    &__details {
         color: $color-primary;
-        font-size: $small-font-size;
+        @include respond(tab-port) {
+            padding: 0;
+            margin-bottom: 0.5rem;
+        }
     }
 
-    &__place {
+    &__accom {
         color: $color-primary;
-        font-size: $small-font-size;
-    }
-
-    &__accompolish {
-        font-size: $mid-font-size;
         font-weight: 600;
     }
 

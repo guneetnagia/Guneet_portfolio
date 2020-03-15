@@ -3,10 +3,10 @@
     margin:0 auto;
     
     &:not(:last-child){
-        margin-bottom: $gutter-vertical;
+       // margin-bottom: $gutter-vertical;
 
         @include respond(tab-port){
-            margin-bottom:$gutter-vertical-small;
+            //margin-bottom:$gutter-vertical-small;
         }
     }
 
@@ -23,7 +23,7 @@
 
             @include respond(tab-port){
                 margin-right:0;
-                margin-bottom:$gutter-vertical-small;
+               // margin-bottom:$gutter-vertical-small;
             }
         }
 
