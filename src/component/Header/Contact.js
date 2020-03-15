@@ -5,7 +5,7 @@ class Contact extends Component {
         return(
             <div className="contact">
                 <div className="contact__id">guneet.nagia@outlook.com<i className="fa fa-envelope"></i></div>
-                <div className="contact__link">http://github.com<i className="fa fa-github" /></div>
+                <div className="contact__link">https://github.com/guneetnagia<i className="fa fa-github" /></div>
                 <div className="contact__number">+91-8956179747 <i className="fa fa-phone"></i></div>
             </div>
         );

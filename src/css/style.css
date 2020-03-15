@@ -5,6 +5,44 @@
   - tab-land  900px to 1200px
   - big-desktop  1800px above
 */
+.header-primary {
+  text-transform: uppercase;
+  color: #000;
+  backface-visibility: hidden;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-weight: 400;
+  font-size: 3rem; }
+  @media (max-width: 37.5em) {
+    .header-primary {
+      font-size: 2rem;
+      letter-spacing: 0.8rem; } }
+
+.heading-secondary {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  color: transparent; }
+  @media (max-width: 56.25em) {
+    .heading-secondary {
+      font-size: 2rem; } }
+  @media (max-width: 37.5em) {
+    .heading-secondary {
+      font-size: 1.5rem; } }
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 *, *::after, *::before {
   margin: 0px;
   padding: 0px;
@@ -27,7 +65,13 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem; }
+  padding-top: 2rem;
+  padding-right: 2rem;
+  font-family: "Lato" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000; }
   @media (max-width: 56.25em) {
     body {
       padding: 0; } }
@@ -36,7 +80,7 @@ body {
   max-width: 114rem;
   margin: 0 auto; }
   .row:not(:last-child) {
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem; }
     @media (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 6rem; } }
@@ -90,6 +134,10 @@ body {
     backface-visibility: hidden;
     transition: all .5s; }
 
+.skills__title {
+  font-size: 2rem;
+  font-weight: 700; }
+
 .skills__technos {
   display: inline-block;
   padding: 1.5rem;
@@ -98,16 +146,6 @@ body {
   color: #fff;
   background-color: #55c57a;
   border-radius: 3px; }
-
-.title__name {
-  font-size: 3.2rem; }
-
-.title__role {
-  font-size: 2rem;
-  color: #55c57a; }
-
-.title__summary {
-  font-size: 1.2rem; }
 
 .contact {
   font-size: 1.6rem;
@@ -119,10 +157,33 @@ body {
 .experience {
   font-size: 1.6rem; }
   .experience__title {
-    font-size: 2rem; }
+    font-size: 2rem;
+    font-weight: 700; }
+
+.companies__name {
+  font-size: 2rem; }
+
+.companies__role {
+  font-size: 1.8rem;
+  font-weight: 600; }
 
 .companies__date {
-  color: #55c57a; }
+  color: #55c57a;
+  font-size: 1.2rem; }
 
 .companies__place {
-  color: #55c57a; }
+  color: #55c57a;
+  font-size: 1.2rem; }
+
+.companies__accompolish {
+  font-size: 1.8rem;
+  font-weight: 600; }
+
+.companies ul {
+  list-style: none; }
+
+.companies li::before {
+  color: #55c57a;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; }
